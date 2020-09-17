@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>OMS</title>
+    <!-- CSS only -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="./src/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="app_statusBar">
+      <div class="container-fluid" id="app_statusBar_container">
+        <div class="row justify-content-center">
+          <ul class="list-group list-group-horizontal">
+            <li class="list-group-item">
+              <img
+                class="img-fluid"
+                src="./src/images/Icons/call.png"
+                alt="call"
+              />
+              <span>CALL US ON 1700-107-0107</span> |
+            </li>
+
+            <li class="list-group-item">
+              <img
+                class="img-fluid"
+                src="./src/images/Icons/download.png"
+                alt="download"
+              />
+              <span>DOWNLOAD APP</span> |
+            </li>
+
+            <li class="list-group-item">
+              <img
+                class="img-fluid"
+                src="./src/images/Icons/track.png"
+                alt="track"
+              />
+              <span>TRACK YOUR ORDER ONLIN</span> |
+            </li>
+
+            <li class="list-group-item">
+              <img
+                class="img-fluid"
+                src="./src/images/Icons/register.png"
+                alt="register"
+              />
+              <span>CLICK TO REGISTER/LOGIN</span> |
+            </li>
+
+            <li class="list-group-item">
+              <img
+                class="img-fluid"
+                src="./src/images/Icons/cart.png"
+                alt="cart"
+              />
+              <span>Cart</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="intro_container">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-11">
+            <nav class="navbar navbar-expand-lg navbar-light">
+              <a class="navbar-brand" href="#">
+                <img
+                  src="./src/images/logo.png"
+                  class="img-fluid"
+                  alt="OMS Logo"
+                /><br />
+                <span>Online Medical store</span>
+              </a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div
+                class="collapse navbar-collapse navigation_links"
+                id="navbarSupportedContent"
+              >
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"> Who we are </a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"> Who we are</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Find Hospital</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">News & updates</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Be Healthy</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact us</a>
+                  </li>
+                </ul>
+                <form>
+                  <div class="input-group" id="search_input">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="search"
+                    />
+                    <div class="input-group-append">
+                      <span class="input-group-text">
+                        <img
+                          src="./src/images/Icons/search.png"
+                          class="img-fluid"
+                          alt="search icon"
+                          id="searchIcon"
+                        />
+                      </span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="getInTouch">
+      <div class="conatiner-fluid" id="color_layer">
+        <div class="row" style="width: fit-content">
+          <div class="col-lg-5 col-12" id="contact_details">
+            <h2>Online Medical store</h2>
+            <p class="desp" id="desp">
+              Vestibulum orci eros, semper a sem vitae, dapibus scelerisque sem.
+              Nulla ut commodo, quis auctor sem. Etiam metus tellus, hendrerit
+              nec tortor eget, blandit convallis.
+            </p>
+
+            <div id="user_form">
+              <p class="desp">Search nearby medical stores</p>
+              <form action="">
+                <div class="row form-group">
+                  <div class="col-md-12">
+                    <div class="input-group">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Location"
+                      />
+                      <div class="input-group-append">
+                        <button
+                          type="button"
+                          class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split"
+                          data-toggle="dropdown"
+                          aria-haspopup="true"
+                          aria-expanded="false"
+                        >
+                          <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="#">India</a>
+                          <a class="dropdown-item" href="#">USA</a>
+                          <a class="dropdown-item" href="#">Austrila</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row form-group">
+                  <div class="col-md-12">
+                    <div class="input-group">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="City"
+                      />
+                      <div class="input-group-append">
+                        <button
+                          type="button"
+                          class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split"
+                          data-toggle="dropdown"
+                          aria-haspopup="true"
+                          aria-expanded="false"
+                        >
+                          <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="#">Bengaluru</a>
+                          <a class="dropdown-item" href="#">New Delhi</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row form-group">
+                  <div class="col-md-12">
+                    <div class="input-group">
+                      <input
+                        type="number"
+                        class="form-control"
+                        placeholder="State"
+                      />
+                      <div class="input-group-append">
+                        <button
+                          type="button"
+                          class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split"
+                          data-toggle="dropdown"
+                          aria-haspopup="true"
+                          aria-expanded="false"
+                        >
+                          <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="#">Karnataka</a>
+                          <a class="dropdown-item" href="#">New Delhi</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row form-group">
+                  <div class="col-md-12">
+                    <div class="input-group">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Pincode"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="text-center">
+                  <button type="button" class="btn btn-primary btn-block">
+                    Sumit &nbsp;
+                    <i class="fa fa-forward" aria-hidden="true"></i>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services">
+      <div class="container">
+        <h2 class="text-center">aliquam convallis sem semper sed</h2>
+        <div class="row mt-3">
+          <div class="col-lg-3 col-6">
+            <div class="card">
+              <img
+                class="card-img-top img-fluid"
+                src="./src/images/drug.png"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Latest Drug</h5>
+                <p class="card-text">
+                  Pellentesque fringilla tortor ac fringilla placerat. Aenean
+                  ornare auctor libero. Quisque egestas vel ligula vitae
+                  malesuada...
+                </p>
+                <a href="#" class="btn btn-primary"
+                  >Read More <i class="fa fa-angle-double-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-6">
+            <div class="card">
+              <img
+                class="card-img-top img-fluid"
+                src="./src/images/hospital.png"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Multi specialist hospital</h5>
+                <p class="card-text">
+                  Donec consectetur quis justo interdum convallis. Maecenas eros
+                  urna, faucibus rhoncus vestibulum nec, molestie ut sapien...
+                </p>
+                <a href="#" class="btn btn-primary"
+                  >Read More
+                  <i class="fa fa-angle-double-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-6">
+            <div class="card">
+              <img
+                class="card-img-top img-fluid"
+                src="./src/images/news.png"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">News & updates</h5>
+                <p class="card-text">
+                  Nunc sed tempus massa. Suspendisse feugiat vel felis id
+                  blandit. Nulla eros dui, placerat et posuere mattis, tempus...
+                </p>
+                <a href="#" class="btn btn-primary"
+                  >Read More
+                  <i class="fa fa-angle-double-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-6">
+            <div class="card">
+              <img
+                class="card-img-top img-fluid"
+                src="./src/images/health.png"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Health tips</h5>
+                <p class="card-text">
+                  Mauris lorem nisl, faucibus nec urna ac, volutpat egestas
+                  nisl. Nunc fermentum porttitor libero, egestas luctus urna
+                  aliquam id...
+                </p>
+                <a href="#" class="btn btn-primary"
+                  >Read More
+                  <i class="fa fa-angle-double-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="details_desp">
+      <div class="container text-center">
+        <h2>Duis tincidunt blandit</h2>
+        <p>
+          Pellentesque fringilla tortor ac fringilla placerat. Aenean ornare
+          auctor libero. Quisque egestas vel.
+        </p>
+        <div class="row details_brief">
+          <div class="col-lg-4 col-12 pl-0">
+            <img
+              src="./src/images/medical.png"
+              class="img-fluid"
+              alt="medical"
+            />
+          </div>
+          <div class="col-lg-8 col-12 text-left details_text">
+            <h2>New trend in medical science</h2>
+            <p class="text-justify">
+              Curabitur at consectetur sapien, et ornare magna. Aliquam sed
+              dolor vestibulum, ornare enim a, congue nisl. Aenean massa ipsum,
+              fringilla euismod semper et, blandit in dolor. Interdum et
+              malesuada fames ac ante ipsum primis in faucibus. Morbi dolor
+              magna, dignissim vel interdum non, aliquam a diam. In pretium enim
+              erat, vel ultrices sapien consequat non. Sed in venenatis lectus,
+              ac gravida enim. Aenean ante risus, hendrerit id lobortis sed,
+              vulputate vel tellus. Aliquam erat volutpat. Nullam aliquam,
+              sapien nec facilisis iaculis, libero lacus aliquam ligula, eu
+              sodales nisl est in augue...
+            </p>
+            <p>
+              <a href="#" class="btn btn-primary"
+                >Read More
+                <i class="fa fa-angle-double-right"></i>
+              </a>
+            </p>
+          </div>
+        </div>
+
+        <br />
+        <div class="row details_brief">
+          <div class="col-lg-8 col-12 text-left details_text">
+            <h2>New trend in medical science</h2>
+            <p class="text-justify">
+              Curabitur at consectetur sapien, et ornare magna. Aliquam sed
+              dolor vestibulum, ornare enim a, congue nisl. Aenean massa ipsum,
+              fringilla euismod semper et, blandit in dolor. Interdum et
+              malesuada fames ac ante ipsum primis in faucibus. Morbi dolor
+              magna, dignissim vel interdum non, aliquam a diam. In pretium enim
+              erat, vel ultrices sapien consequat non. Sed in venenatis lectus,
+              ac gravida enim. Aenean ante risus, hendrerit id lobortis sed,
+              vulputate vel tellus. Aliquam erat volutpat. Nullam aliquam,
+              sapien nec facilisis iaculis, libero lacus aliquam ligula, eu
+              sodales nisl est in augue... <br />
+            </p>
+            <p>
+              <a href="#" class="btn btn-primary"
+                >Read More
+                <i class="fa fa-angle-double-right"></i>
+              </a>
+            </p>
+          </div>
+          <div class="col-lg-4 col-12 pr-0">
+            <img src="./src/images/yoga.png" class="img-fluid" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-lg-10 col-12 text-light">
+            <div class="row">
+              <div class="col-lg-3" id="footer_logo">
+                <img
+                  src="./src/images/logo-footer.png"
+                  class="img-fluid"
+                  alt="OMS Logo"
+                />
+                <p id="logo_line">Online Medical store</p>
+                <p id="reversed_logo">
+                  © 2016 Online Medical Store. <br />
+                  All Rights Reserved.
+                </p>
+              </div>
+
+              <div class="col-lg-3" class="about_us">
+                <h4>About Us</h4>
+                <ul class="list-group">
+                  <li class="list-group-item">
+                    <i class="fa fa-angle-right"></i>
+                    About Online Medical Store
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fa fa-angle-right"></i>
+                    FlexiRewards
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fa fa-angle-right"></i>
+                    Locate Stores
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fa fa-angle-right"></i>
+                    FAQ
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fa fa-angle-right"></i>
+                    Privacy Policy
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fa fa-angle-right"></i>
+                    Terms & Conditions
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fa fa-angle-right"></i>
+                    Returns & Cancellations
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fa fa-angle-right"></i>
+                    Sitemap
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fa fa-angle-right"></i>
+                    Brands
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fa fa-angle-right"></i>
+                    Contact Us
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-lg-3" class="pharmacy">
+                <h4>Pharmacy Services</h4>
+                <ul class="list-group">
+                  <li class="list-group-item">
+                    <i class="fa fa-angle-right"></i>
+                    Medicine Information
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fa fa-angle-right"></i>
+                    Re-Order
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fa fa-angle-right"></i>
+                    View & Print Bills
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fa fa-angle-right"></i>
+                    Health Records
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-lg-3 social_media">
+                <h4>we will be in touch</h4>
+                <ul class="list-group list-group-horizontal">
+                  <li class="list-group-item">
+                    <i class="fa fa-facebook"></i>
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fa fa-twitter"></i>
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fa fa-linkedin"></i>
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fa fa-instagram"></i>
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fa fa-youtube-play"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
